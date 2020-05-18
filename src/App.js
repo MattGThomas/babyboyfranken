@@ -23,13 +23,13 @@ class App extends Component {
           </p>
         </div>
         <div>
-          <h2>Baby boy franken</h2>
+          <h2 className="baby-name">Baby boy Franken</h2>
         </div>
         <div>
           <p>Friday | October 13th | 4PM - 9PM</p>
         </div>
         <div>
-          <p>
+          <p className="location">
             The Great Zoom Network
             <br />
             RSVP to my super hot bestfriend 555-555-5555

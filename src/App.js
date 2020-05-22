@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Countdown from "../src/components/Countdown.js";
 import Modal from "../src/components/Modal";
-import forest from "../src/images/forest.jpg";
-import forest1 from "../src/images/forest1.jpg";
+// import forest from "../src/images/forest.jpg";
+// import forest1 from "../src/images/forest1.jpg";
 
 import "./App.css";
 
@@ -24,6 +24,13 @@ class App extends Component {
           </div> */}
         {/* <div className="whole-card"> */}
         {/* <div className="card text-center"> */}
+        <div
+          style={{ paddingBottom: "0", marginBottom: "0" }}
+          className="the-countdown"
+        >
+          <Countdown date={`${year}-08-05T17:00:00`} />
+          <span style={{ fontSize: "2.3rem" }}>to</span>
+        </div>
         <div className="body">
           <div>
             <h1 className="baby-name">Baby Boy Franken</h1>
@@ -63,11 +70,13 @@ class App extends Component {
 
             {/* </div> */}
           </div>
-          <footer className="text-left" style={{ fontSize: ".3rem" }}>
-            <a href="https://www.freepik.com/free-photos-vectors/design">
-              Background design
-            </a>
-          </footer>
+          <div className="footer">
+            <footer style={{ fontSize: ".3rem" }}>
+              <a href="https://www.freepik.com/free-photos-vectors/frame">
+                Background design
+              </a>
+            </footer>
+          </div>
         </div>
       </div>
     );

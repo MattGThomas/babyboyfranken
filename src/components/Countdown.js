@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "../App.css";
 class Countdown extends Component {
   constructor(props) {
     super(props);
@@ -76,7 +76,7 @@ class Countdown extends Component {
     const countDown = this.state;
 
     return (
-      <div>
+      <div className="countdown-timer">
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.days)}</strong>

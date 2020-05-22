@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  background-image: url("./images/forest3.jpg");
+  min-height: 100vh;
+  font-family: "Crafty Girls", cursive;
+}
+
+@media (max-width: 475px) {
+  .App {
+    background-image: url("./images/forest4.jpeg");
+  }
 }
 
 .App-logo {
@@ -37,9 +46,75 @@
   }
 }
 
+.body {
+  padding-top: 6%;
+  color: #61dafb;
+  /* color: black; */
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+@media (max-width: 475px) {
+  .body {
+    font-size: 1.3rem;
+    /* padding-top: 15%; */
+  }
+  .true-body {
+    padding-top: 7%;
+  }
+}
+
 .baby-name {
   font-family: "Parisienne", cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 7.5rem;
+}
+@media (max-width: 475px) {
+  .baby-name {
+    font-size: 3rem;
+  }
 }
 .location {
-  font-family: "Lobster", cursive;
+  /* font-family: "Lobster", cursive; */
+}
+.date {
+  font-weight: bold;
+}
+.zoom-info {
+  font-weight: bold;
+}
+
+.countdown {
+  color: red;
+}
+.countdown-timer {
+  color: black;
+  font-size: 1.8rem;
+}
+
+.header {
+  padding: 2% 0;
+}
+.card {
+  max-width: 75%;
+}
+.whole-card {
+  align-items: center;
+}
+.card {
+  align-self: center;
+}
+@media (max-width: 475px) {
+  .countdown {
+    font-family: "Lobster";
+    padding-top: 5%;
+    color: red;
+  }
+  .countdown-timer {
+    color: black;
+  }
+  .header {
+    font-size: 2rem;
+    /* padding: 20% 0; */
+  }
 }

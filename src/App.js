@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Countdown from "../src/components/Countdown.js";
+import Modal from "../src/components/Modal";
+import forest from "../src/images/forest.jpg";
+import forest1 from "../src/images/forest1.jpg";
 
 import "./App.css";
 
@@ -12,49 +15,59 @@ class App extends Component {
         : currentDate.getFullYear();
     return (
       <div className="App">
-        <div>
-          <p>It's a boy?</p>
-        </div>
-        <div>
-          <p>
-            join us for a baby shower
-            <br />
-            honoring
-          </p>
-        </div>
-        <div>
-          <h2 className="baby-name">Baby boy Franken</h2>
-        </div>
-        <div>
-          <p>Friday | October 13th | 4PM - 9PM</p>
-        </div>
-        <div>
-          <p className="location">
-            The Great Zoom Network
-            <br />
-            RSVP to my super hot bestfriend 555-555-5555
-            <br />
-            June 16, 2020
-          </p>
-        </div>
-        <div>
-          <p>
-            Registered @{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://tgt.gifts/babyboyfranken"
-            >
-              Target
+        {/* <div style={{ background: "#89cff0" }} className="header">
+          <div>
+            
+          </div>
+          {/* <div>
+            <Countdown date={`${year}-05-21T21:00:00`} />
+          </div> */}
+        {/* <div className="whole-card"> */}
+        {/* <div className="card text-center"> */}
+        <div className="body">
+          <div>
+            <h1 className="baby-name">Baby Boy Franken</h1>
+          </div>
+          <div className="true-body">
+            <div className="date">
+              <p>Friday | October 13th | 4PM - 9PM</p>
+            </div>
+            <div>
+              <p className="location">
+                The Great Zoom Network
+                <br />
+                RSVP to Amy @ 555-555-5555 by
+                <br />
+                June 16, 2020
+              </p>
+            </div>
+            <p style={{ color: "white" }}>
+              Registered @{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://tgt.gifts/babyboyfranken"
+                style={{ color: "white" }}
+              >
+                Target
+              </a>
+            </p>
+            <div className="zoom-info">
+              <p>
+                for those of you joining us via Zoom, <br />
+                click the link below
+              </p>
+              <Modal />
+            </div>
+            {/* <div className="card-footer"> */}
+
+            {/* </div> */}
+          </div>
+          <footer className="text-left" style={{ fontSize: ".3rem" }}>
+            <a href="https://www.freepik.com/free-photos-vectors/design">
+              Background design
             </a>
-          </p>
-        </div>
-        <div>
-          <Countdown date={`${year}-06-16T00:00:00`} />
-          {/* <Countdown
-        timeTillDate="05 18 2020, 6:30 am"
-        timeFormat="MM DD YYYY, h:mm a"
-        /> */}
+          </footer>
         </div>
       </div>
     );

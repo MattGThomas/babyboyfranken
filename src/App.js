@@ -37,15 +37,15 @@ class App extends Component {
           </div>
           <div className="true-body">
             <div className="date">
-              <p>Friday | October 13th | 4PM - 9PM</p>
+              <p>Saturday | June 27 | 4PM - 9PM</p>
             </div>
             <div>
               <p className="location">
                 The Great Zoom Network
                 <br />
-                RSVP to Amy @ 555-555-5555 by
+                RSVP to Amy @ [number on invite] by
                 <br />
-                June 16, 2020
+                June 6, 2020
               </p>
             </div>
             <p style={{ color: "white" }}>

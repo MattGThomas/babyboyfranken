@@ -48,13 +48,13 @@ class App extends Component {
                 June 6, 2020
               </p>
             </div>
-            <p style={{ color: "white" }}>
+            <p className="target-registration">
               Registered @{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="http://tgt.gifts/babyboyfranken"
-                style={{ color: "white" }}
+                // style={{ color: "white" }}
               >
                 Target
               </a>

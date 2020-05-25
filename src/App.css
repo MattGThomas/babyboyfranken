@@ -1,13 +1,15 @@
 .App {
   text-align: center;
   background-image: url("./images/forest01.jpg");
+  /* background-image: url("./images/fox.jpg"); */
   min-height: 100vh;
   font-family: "Crafty Girls", cursive;
 }
 
 @media (max-width: 475px) {
   .App {
-    background-image: url("./images/forest007.jpeg");
+    /* background: #89cff8; */
+    background-image: url("./images/foxCopy.jpg");
   }
 }
 
@@ -64,6 +66,7 @@
   }
   .true-body {
     padding-top: 7%;
+    padding-left: 0;
   }
 }
 
@@ -79,7 +82,7 @@
 @media (max-width: 475px) {
   .baby-name {
     font-size: 3rem;
-    padding-left: 7%;
+    padding-left: 0;
   }
   .the-countdown {
     font-weight: bold;
@@ -126,6 +129,20 @@
   .header {
     font-size: 2rem;
     /* padding: 20% 0; */
+  }
+}
+.target-registration {
+  color: white;
+}
+.target-registration a {
+  color: white;
+}
+@media (max-width: 475px) {
+  .target-registration {
+    color: #3b3b38;
+  }
+  .target-registration a {
+    color: #3b3b38;
   }
 }
 .footer {
